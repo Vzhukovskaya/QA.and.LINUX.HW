@@ -1,0 +1,14 @@
+   0 vi /tmp/file.txt
+   1 df -h >> /tmp/file.txt
+   2 ls -la
+   3 chmod g+w,u-r,o-x /tmp/file.txt
+   4 export NAME=valeriia
+   5 export VAR=alex
+   6 $NAME >> /tmp/file.txt
+   7 echo $NAME >> /tmp/file.txt
+   8 echo $VAR >> /tmp/file.txt
+   9 nano /tmp/file.txt
+  10 env
+  11 unset VAR 
+  12 unset NAME
+  13 history > history.txt
