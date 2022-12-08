@@ -1,0 +1,10 @@
+#!/bin/bash
+for run in {1..10}
+do
+DATE=$(date +"%H_%M_%S")
+echo $run
+echo $DATE
+touch $run'_'$DATE
+
+done
+
